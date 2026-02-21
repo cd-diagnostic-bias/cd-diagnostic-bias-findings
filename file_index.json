@@ -1,0 +1,265 @@
+{
+  "project": "Celiac Disease Diagnostic Bias Research",
+  "description": "Systematic investigation of diagnostic biases in celiac disease detection, including verification bias, overlooked populations, and guideline limitations",
+  "version": "1.0",
+  "last_updated": "2026-02-12",
+  "total_files": 37,
+  "usage": {
+    "base_url": "https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings/main/",
+    "instructions": "Fetch files by appending the filename to the base_url."
+  },
+  "sections": {
+    "1_verification_bias_serology": {
+      "title": "Verification Bias & Serology Accuracy",
+      "description": "Core evidence that verification bias inflates reported IgA-tTG2 sensitivity",
+      "files": {
+        "1.1": {
+          "filename": "1.1_research_verification_bias_v2_minified.json",
+          "title": "Verification Bias in IgA-tTG2 Testing",
+          "key_finding": "Sensitivity drops from 93% to 57% after bias correction"
+        },
+        "1.2": {
+          "filename": "1_2_findings_v3_minified.json",
+          "title": "Serology Sensitivity by Marsh Grade",
+          "key_finding": "Sensitivity 0-96% depending on Marsh grade"
+        },
+        "1.3": {
+          "filename": "1.3_research_tTG2_assay_heterogeneity_v2_minified.json",
+          "title": "tTG2 Assay Heterogeneity",
+          "key_finding": "69-97% sensitivity across different platforms"
+        }
+      }
+    },
+    "2_biopsy_interpretation": {
+      "title": "Biopsy Interpretation Biases",
+      "description": "Evidence that biopsy is an imperfect gold standard with significant inter-observer variability",
+      "files": {
+        "2.1": {
+          "filename": "2.1_pathologist_agreement_celiac_histopathology_minified.json",
+          "title": "Pathologist Agreement on Histopathology",
+          "key_finding": "κ=0.33 for Marsh 3A; 41% called normal by community pathologists"
+        },
+        "2.2": {
+          "filename": "2.2_research_topic_false_negative_biopsy_sampling_minified.json",
+          "title": "False Negative Biopsy Sampling",
+          "key_finding": "Only 35% meet ≥4 specimen guideline"
+        },
+        "2.3": {
+          "filename": "2.3_research_topic_findings_minified.json",
+          "title": "Biopsy as Gold Standard",
+          "key_finding": "12-20% cumulative false-negative rate"
+        },
+        "2.4A1": {
+          "filename": "2.4A1_marsh_3a_findings_v4_minified.json",
+          "title": "Marsh 3A Pathobiology",
+          "key_finding": "Marsh 3A is the diagnostic blind spot"
+        },
+        "2.4A2": {
+          "filename": "2.4A2_research_biomarkers_seronegative_CD_Marsh3a_FINAL_minified.json",
+          "title": "Biomarkers for Seronegative CD at Marsh 3A",
+          "key_finding": "γδ IEL 87% sensitivity in seronegative VA"
+        },
+        "2.4B": {
+          "filename": "2.4B_final_merged_minified.json",
+          "title": "Marsh 3A Detection Sensitivity",
+          "key_finding": "Combined 20-35% false-negative estimate"
+        }
+      }
+    },
+    "3_overlooked_populations": {
+      "title": "Systematically Missed Populations",
+      "description": "Patient populations systematically underdiagnosed by current algorithms",
+      "files": {
+        "3.1": {
+          "filename": "3.1_SNCD_final_synthesis_minified.json",
+          "title": "Seronegative Celiac Disease Synthesis",
+          "key_finding": "SNCD is 2-6% of diagnosed CD; 10.9× complication rate"
+        },
+        "3.2": {
+          "filename": "3.2_research_rare_HLA_types_gradient_of_diagnostic_invisibility_minified.json",
+          "title": "Rare HLA Types and Diagnostic Invisibility",
+          "key_finding": "6.1% lack DQ2/DQ8; NPV 90.5% in males"
+        },
+        "3.2B": {
+          "filename": "3.2B_research_3.6_three_models_complete_seronegativity_minified.json",
+          "title": "Three Models of Complete Seronegativity",
+          "key_finding": "Multiple independent mechanisms cause seronegativity"
+        },
+        "3.3": {
+          "filename": "3.3_findings_marsh_1_2_potential_cd_minified.json",
+          "title": "Marsh 1-2 and Potential Celiac Disease",
+          "key_finding": "43% of potential CD progresses to villous atrophy"
+        },
+        "3.4": {
+          "filename": "3.4_IgA_deficiency_CD_v3_minified.json",
+          "title": "IgA Deficiency in Celiac Disease",
+          "key_finding": "IgG test sensitivity unknown due to verification bias"
+        },
+        "3.5": {
+          "filename": "3_5_fecal_sIgA_mucosal_immune_CD_2026-02-10_FINAL_minified.json",
+          "title": "Secretory IgA and Mucosal Immunity",
+          "key_finding": "Serum IgA ≠ secretory IgA; dissociation possible"
+        },
+        "3.6": {
+          "filename": "3.6_elderly_cd_diagnosis_FINAL_v3.1_minified.json",
+          "title": "Elderly CD Diagnosis",
+          "key_finding": "58% undetected; 15-17 year diagnostic delays"
+        },
+        "3.7": {
+          "filename": "3.7_research_topic_racial_ethnic_bias_cd_diagnosis_minified.json",
+          "title": "Racial and Ethnic Bias in CD Diagnosis",
+          "key_finding": "80% of Black CD patients seronegative"
+        },
+        "3.8": {
+          "filename": "3.8_diagnostic_failure_GFD_consolidated_minified.json",
+          "title": "Diagnostic Failure in Patients on GFD",
+          "key_finding": "72% of GFD followers lack formal CD diagnosis"
+        },
+        "3.9": {
+          "filename": "3.9_findings_revised_minified.json",
+          "title": "Atypical and Extraintestinal Presentations",
+          "key_finding": "42-month vs 2.3-month diagnostic delay for atypical"
+        },
+        "3.10": {
+          "filename": "3.10_CD_IBS_Diagnostic_Overlap_minified.json",
+          "title": "CD and IBS Diagnostic Overlap",
+          "key_finding": "2-5% of IBS has CD; only 2.7% tested"
+        }
+      }
+    },
+    "4_cascade_failures": {
+      "title": "Diagnostic Cascade Failures",
+      "description": "System-level barriers to diagnosis",
+      "files": {
+        "4.1": {
+          "filename": "4.1_topic_primary_care_barriers_FINAL_minified.json",
+          "title": "Primary Care Barriers",
+          "key_finding": "69.9% of clinicians consider CD 'rare'"
+        },
+        "4.2": {
+          "filename": "4.2_findings_corrected_v2_minified.json",
+          "title": "Referral to Endoscopy Completion",
+          "key_finding": "13.6% had prior EGD without biopsy"
+        }
+      }
+    },
+    "5_guideline_assumptions": {
+      "title": "Unproven Guideline Assumptions",
+      "description": "Challenging foundational assumptions in clinical guidelines",
+      "files": {
+        "5.1": {
+          "filename": "5.1_findings_final_minified.json",
+          "title": "The 95%+ Sensitivity Claim",
+          "key_finding": "Claim traces to subset of 3 studies from 2005"
+        },
+        "5.2": {
+          "filename": "5.2_topic_findings_corrected_final_minified.json",
+          "title": "HLA Necessity Assumption",
+          "key_finding": "DQ7.5 shows 8.7% enteropathy; not truly 'non-permissive'"
+        }
+      }
+    },
+    "6_disease_spectrum": {
+      "title": "Disease Spectrum & Alternatives",
+      "description": "Understanding CD as a spectrum and alternative diagnostic approaches",
+      "files": {
+        "6.1": {
+          "filename": "6.1_findings_cd_subtypes_spectrum_minified.json",
+          "title": "CD Subtypes and Spectrum Model",
+          "key_finding": "One T-cell disease with variable antibody expression"
+        },
+        "6.2": {
+          "filename": "6.2_findings_alternative_biomarkers_v2_minified.json",
+          "title": "Alternative Biomarkers",
+          "key_finding": "IEL flow cytometry: 93% sensitivity, 98% specificity"
+        },
+        "6.3": {
+          "filename": "6_3_no_biopsy_adults_FINAL_v5_0_lean_minified.json",
+          "title": "No-Biopsy Diagnosis in Adults",
+          "key_finding": "Only 8-32% of adults qualify for no-biopsy pathway"
+        }
+      }
+    },
+    "7_synthesis": {
+      "title": "Synthesis and Integration",
+      "description": "Cumulative analysis and guideline evaluation",
+      "files": {
+        "7.1": {
+          "filename": "7_1_cumulative_cascade_sensitivity_celiac_2026-02-11_FINAL_lean_minified.json",
+          "title": "Cumulative Cascade Sensitivity",
+          "key_finding": "Real-world detection 20-40% for atypical presentations"
+        },
+        "7.2": {
+          "filename": "7_2_guideline_critique_celiac_2026-02-12_FINAL_v2_minified.json",
+          "title": "Guideline Critique",
+          "key_finding": "Major guidelines contain multiple unsupported claims"
+        }
+      }
+    },
+    "8_monitoring_classification": {
+      "title": "Monitoring & Classification",
+      "description": "Issues with disease monitoring and histological classification",
+      "files": {
+        "8.1": {
+          "filename": "8.1_topic_2.1_DGP_HLA_bias_v2.1_FINAL_minified.json",
+          "title": "DGP and HLA in Monitoring",
+          "key_finding": "DGP may outperform tTG2 in some contexts"
+        },
+        "8.2": {
+          "filename": "8.2_IgG1_subclass_deficiency_CD_FINAL_minified.json",
+          "title": "IgG1 Subclass Deficiency",
+          "key_finding": "IgG1 deficiency impairs all serology pathways"
+        },
+        "8.3": {
+          "filename": "8.3_SNCD-Deposits-FINAL-v2_minified.json",
+          "title": "Mucosal tTG2-IgA Deposits in SNCD",
+          "key_finding": "96-100% sensitivity but 24% false-positive rate"
+        },
+        "8.4": {
+          "filename": "8.4_monitoring-3_corrected_minified.json",
+          "title": "GFD Monitoring Limitations",
+          "key_finding": "Serology only 50% sensitive for persistent VA"
+        },
+        "8.5": {
+          "filename": "8.5_marsh_classification_validity_v4_final_lean_minified.json",
+          "title": "Marsh Classification Validity",
+          "key_finding": "Marsh himself rejected Oberhuber 3a/3b/3c subdivisions"
+        }
+      }
+    },
+    "9_extraintestinal": {
+      "title": "Extraintestinal Manifestations",
+      "description": "Neurological and thyroid manifestations of gluten autoimmunity",
+      "files": {
+        "9.1": {
+          "filename": "9_1_neurological_gluten_spectrum_FINAL_v3_0_lean_minified.json",
+          "title": "Neurological Gluten Spectrum",
+          "key_finding": "40% of CD has anti-tTG6; gluten ataxia is ~15% of sporadic ataxias"
+        },
+        "9.2": {
+          "filename": "9_2_celiac_thyroid_autoimmune_FINAL_v3_lean_minified.json",
+          "title": "Thyroid-Celiac Autoimmune Connection",
+          "key_finding": "10-30% of CD has autoimmune thyroid disease"
+        }
+      }
+    }
+  },
+  "quick_reference": {
+    "core_bias_findings": ["1.1", "1.2", "2.1", "5.1"],
+    "overlooked_populations": ["3.1", "3.2", "3.6", "3.7", "3.8"],
+    "marsh_3a_problem": ["2.4A1", "2.4A2", "2.4B"],
+    "alternative_diagnostics": ["6.2", "8.3"],
+    "synthesis": ["7.1", "7.2"],
+    "extraintestinal": ["9.1", "9.2"]
+  },
+  "key_statistics": {
+    "verification_bias_corrected_sensitivity": "57.1% (95% CI: 35.4-76.4%)",
+    "marsh_3a_pathologist_agreement": "κ=0.33",
+    "elderly_undetected_rate": "58%",
+    "black_patients_seronegative": "80%",
+    "gfd_followers_undiagnosed": "72%",
+    "sncd_complication_rate": "10.9× vs seropositive",
+    "anti_tTG6_in_new_CD": "40%",
+    "aitd_in_cd": "10-30%"
+  }
+}
