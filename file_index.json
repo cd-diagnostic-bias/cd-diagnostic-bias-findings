@@ -1,9 +1,9 @@
 {
   "project": "Celiac Disease Diagnostic Bias Research",
   "description": "Systematic investigation of diagnostic biases in celiac disease detection, including verification bias, overlooked populations, and guideline limitations",
-  "version": "1.0",
-  "last_updated": "2026-02-12",
-  "total_files": 37,
+  "version": "1.1",
+  "last_updated": "2026-02-22",
+  "total_files": 36,
   "usage": {
     "base_url": "https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings/main/",
     "instructions": "Fetch files by appending the filename to the base_url."
@@ -79,11 +79,6 @@
           "filename": "3.2_research_rare_HLA_types_gradient_of_diagnostic_invisibility_minified.json",
           "title": "Rare HLA Types and Diagnostic Invisibility",
           "key_finding": "6.1% lack DQ2/DQ8; NPV 90.5% in males"
-        },
-        "3.2B": {
-          "filename": "3.2B_research_3.6_three_models_complete_seronegativity_minified.json",
-          "title": "Three Models of Complete Seronegativity",
-          "key_finding": "Multiple independent mechanisms cause seronegativity"
         },
         "3.3": {
           "filename": "3.3_findings_marsh_1_2_potential_cd_minified.json",
@@ -211,7 +206,7 @@
           "key_finding": "IgG1 deficiency impairs all serology pathways"
         },
         "8.3": {
-          "filename": "8.3_SNCD-Deposits-FINAL-v2_minified.json",
+          "filename": "8.3_SNCD-Deposits-FINAL-v2_1_minified.json",
           "title": "Mucosal tTG2-IgA Deposits in SNCD",
           "key_finding": "96-100% sensitivity but 24% false-positive rate"
         },
@@ -250,7 +245,8 @@
     "marsh_3a_problem": ["2.4A1", "2.4A2", "2.4B"],
     "alternative_diagnostics": ["6.2", "8.3"],
     "synthesis": ["7.1", "7.2"],
-    "extraintestinal": ["9.1", "9.2"]
+    "extraintestinal": ["9.1", "9.2"],
+    "seronegativity_mechanisms": ["3.1", "3.4", "8.2", "8.1"]
   },
   "key_statistics": {
     "verification_bias_corrected_sensitivity": "57.1% (95% CI: 35.4-76.4%)",
