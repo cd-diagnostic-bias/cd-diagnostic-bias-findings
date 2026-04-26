@@ -6,7 +6,8 @@
   "total_files": 36,
   "usage": {
     "base_url": "https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings/main/",
-    "instructions": "Fetch files by appending the filename to the base_url."
+    "instructions": "Fetch files by appending the filename to the base_url.",
+    "full_instructions": "https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings/main/CD_Research_Project_Instructions_v2.md"
   },
   "sections": {
     "1_verification_bias_serology": {
