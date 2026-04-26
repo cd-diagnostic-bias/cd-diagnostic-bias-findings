@@ -175,6 +175,12 @@ https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings
 Key finding: 10-30% of CD has autoimmune thyroid disease
 https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings/main/9_2_celiac_thyroid_autoimmune_FINAL_v3_lean_minified.json
 
+### Section 10: Microbiome-Immune Pathogenesis
+
+**10.1 - Gut Microbiome as Active Regulator of IL-15/IL-7-Mediated Pathogenesis**
+Key finding: Bidirectional loop: IL-15 depletes butyrate-producers → reduced HDAC inhibition → disinhibited IL-15 transcription
+https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings/main/10_1_microbiome_IL15_IL7_celiac_pathogenesis_2026-03-04_minified.json
+
 ---
 
 ## Quick Reference by Topic
@@ -193,6 +199,7 @@ https://raw.githubusercontent.com/cd-diagnostic-bias/cd-diagnostic-bias-findings
 | Guideline critique | 7.2 |
 | Neurological | 9.1 |
 | Thyroid | 9.2 |
+| Microbiome / IL-15 / IL-7 | 10.1 |
 
 ---
 
